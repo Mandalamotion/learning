@@ -1,0 +1,79 @@
+﻿/*General  */
+body, H1, H2{
+	background-color: #FFFFCC;
+	color: rgba(250, 165, 0, 0.7);
+	box-sizing:border-box;
+	
+}
+a {
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration: underline;
+	color: rgba(0, 160, 254, 0.2);
+	background-color: #ADD8E6;
+}
+
+.outer {
+	display: table;
+	box-sizing:border-box;
+    width: auto;
+    color: navy;
+    background-color: lightblue;
+    border: 2px solid darkblue;
+    padding: 3px;
+  /*  margin-left:auto;
+	margin-right:auto;
+    */
+ }
+ 
+ .title{
+	width: auto;
+	color: lightblue;
+	background-color: navy;
+	text-align: center;
+	font-family: "AR BLANCA";
+}
+
+.oddcolor{
+	color:blueviolet
+}
+
+.evencolor{
+	color: #6666FF;
+}
+
+.labelcolor{
+	color: #999999;
+	font-family: Georgia;
+	font-size: medium;
+	font-weight: bolder;
+}
+
+
+/* From beginning JQuery */
+#box {
+	border: 1px solid #0066FF;
+	width: 100px;
+	height: 100px;
+	text-align: justify;
+	overflow: visible;
+	background: #3399FF;
+	font-size: 14px;
+}
+.outer p {
+	display: inline-block;
+	color: #06F;
+	background-color: #FF6;
+	border: 1px solid #FF0;
+	height: auto;
+	width: auto;
+	margin-top: 10px;
+	padding: 3px;
+	border-radius: 4px;
+}
+.outer a{
+	display: block;
+	font-family: "Lucida Console", Monaco, monospace;
+	background-color: #ADD8E6;
+	font-size: large;
+	color:#00F
+}
